@@ -1,0 +1,1 @@
+function response = logistic(X, param)% parameters for logisticPSE = param(:,1)';JND  = param(:,2)';if size(X,1)~=1,	X=X(:); endresponse = 1./(1+exp((PSE-X)./JND)); % Logistic 
